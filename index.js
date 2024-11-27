@@ -172,7 +172,7 @@ let stocks = [
 
 //all stocks
 
-app.get('/LoadStocks', (req, res) => {
+app.get('/stocks', (req, res) => {
   res.json(stocks);
 });
 
